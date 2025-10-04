@@ -311,11 +311,14 @@ footer a:hover{
 }
 
 
+.LINE2{
+
+  display: none;
+}
 
 
 
-
-      @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
         .cp_cont,main{
           display: block;
 }
@@ -455,6 +458,29 @@ a {
 	right: 5px;
 	display: inline-block;
 }
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+
+
+
+
 /* menu */
 .cp_offcm01 .cp_menu {
 	position: fixed;
@@ -464,9 +490,9 @@ a {
 	height: 100%;
 	cursor: pointer;
 	-webkit-transition: 0.53s transform;
-	        transition: 0.53s transform;
+	transition: 0.53s transform;
 	-webkit-transition-timing-function: cubic-bezier(.38,.52,.23,.99);
-	        transition-timing-function: cubic-bezier(.38,.52,.23,.99);
+	transition-timing-function: cubic-bezier(.38,.52,.23,.99);
 	background-color: #ca2f10e7;
 	opacity: 1;
 }
@@ -494,7 +520,7 @@ a {
 }
 .cp_offcm01 #cp_toggle01:checked ~ .cp_menu {
 	-webkit-transform: translateX(-100vw);
-	        transform: translateX(-100vw);
+	transform: translateX(-100vw);
 }
 /* menu toggle */
 .cp_offcm01 #cp_toggle01 ~ label {
@@ -502,15 +528,15 @@ a {
 	padding: 0.5em;
 	cursor: pointer;
 	-webkit-transition: 0.5s transform;
-	        transition: 0.5s transform;
+	transition: 0.5s transform;
 	-webkit-transition-timing-function: cubic-bezier(.61,-0.38,.37,1.27);
-	        transition-timing-function: cubic-bezier(.61,-0.38,.37,1.27);
+	transition-timing-function: cubic-bezier(.61,-0.38,.37,1.27);
 	text-align: center;
 	color: #333333;
 }
 .cp_offcm01 #cp_toggle01:checked ~ label {
 	-webkit-transform: translateX(-250px);
-	        transform: translateX(-250px);
+	transform: translateX(-250px);
 }
 .cp_offcm01 #cp_toggle01 ~ label::before {
 	font-family: 'FontAwesome';
@@ -550,10 +576,42 @@ a {
 #cp_toggle01 {
     text-shadow:
     -1px -1px 0 black,
-     1px -1px 0 black,
+    1px -1px 0 black,
     -1px  1px 0 black,
-     1px  1px 0 black;
+    1px  1px 0 black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+
+
 
 
 
@@ -660,6 +718,11 @@ a {
   opacity: 1;
 }
 
+.LINELINE{
+    top: 920.03vw; /* 783.03 + 108 */
+  left: 9.58vw;
+}
+
 .fn5 {
   position: absolute;
   top: 930.61vw; /* 791.61 + 108 */
@@ -672,6 +735,19 @@ a {
   color: #F3EDED;
   opacity: 1;
 }
+
+.LINE{
+    display: flex;
+  align-items: center; /* 垂直方向を中央揃え */
+  gap: 5px; /* テキストと画像の間の余白 */
+}
+
+.LINE2{
+    width: 100vw; /* ビューポート幅いっぱい */
+  height: auto; /* 高さは自動で調整 */
+  display: block; /* inline要素をブロック化して余白防止 */
+}
+
       }
     </style>
 </head>
@@ -709,7 +785,14 @@ a {
             <li><a href="index2.html#kg">会社概要</a></li>
             <li><a href="index2.html#ac">アクセス</a></li>
             <li><a href="index3.html">採用情報</a></li>
-            
+            <li>
+                <a href="https://line.me/R/ti/p/@412wdwrf" class="LINE1">北誠建設公式ライン！<img class="LINE" src="" ></a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/hokusei_kensetsu.kyoto?igsh=MXUweTlvN3N5eG9lbw%3D%3D" class="LINE1">北誠建設公式インスタ！<img class="LINE" src="" ></a>
+            </li>
+
           </ul>
           </div>
         </div>
@@ -727,7 +810,6 @@ a {
       <div class="box"><img class="img 1" src="img/外壁.png"></div>
       <div class="box"><img class="img 1" src="img/屋上.png"></div>
       <div class="box"><img class="img 1" src="img/現場.png"></div>
-      
       <div class="box"><img class="img 1" src="img/テンポ.png"></div>
     </div>
     <button id="lt"><</button>
@@ -776,6 +858,8 @@ lt.addEventListener('click', () => {
 window.addEventListener('resize', () => {
   moveBoxes();
 });
+
+
 </script>
 
 
@@ -802,7 +886,30 @@ window.addEventListener('resize', () => {
           <li><a href="index2.html#kg" class="fn2">会社概要</a></li>
           <li><a href="index2.html#ac" class="fn3">アクセス</a></li>
           <li><a href="index3.html" class="fn4">採用情報</a></li>
-          
+          <li>
+
+
+
+            <a href="https://www.instagram.com/hokusei_kensetsu.kyoto?igsh=MXUweTlvN3N5eG9lbw%3D%3D">
+              <img src="img/インスタ.png" class="LINE2">
+            </a>
+          </li>
+
+                      <a href="https://line.me/R/ti/p/@412wdwrf">
+              <img src="img/LINE.jpg" class="LINE2">
+            </a>
+
+
+
+
+
+
+
+
+
+
+
+            
         </ul>
       </nav>
     </footer>
